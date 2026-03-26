@@ -1,0 +1,73 @@
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+    --pico-primary: #047878;
+    --pico-primary-background: #047878;
+    --pico-primary-border: var(--pico-primary-background);
+    --pico-primary-underline: rgba(4, 120, 120, 0.5);
+    --pico-primary-hover: #015050;
+    --pico-primary-hover-background: #046a6a;
+    --pico-primary-hover-border: var(--pico-primary-hover-background);
+    --pico-primary-hover-underline: var(--pico-primary-hover);
+    --pico-primary-focus: rgba(5, 134, 134, 0.375);
+    --pico-primary-inverse: #fff;
+}
+
+body {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    color: var(--pico-muted-color);
+    margin-bottom: 2rem;
+}
+
+.download-section {
+    margin-bottom: 2.5rem;
+}
+
+.link-card {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--pico-muted-border-color);
+}
+
+.link-card:last-child {
+    border-bottom: none;
+}
+
+.link-card h3 {
+    margin-bottom: 0.3rem;
+    font-size: 1.1rem;
+}
+
+.link-card h3 a {
+    text-decoration: none;
+}
+
+.link-card .author {
+    font-size: 0.85rem;
+    color: var(--pico-muted-color);
+    margin-bottom: 0.4rem;
+}
+
+.link-card p:last-child {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+}
+
+footer {
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 2rem 0;
+    color: var(--pico-muted-color);
+}
+
+footer a {
+    color: var(--pico-muted-color);
+}
